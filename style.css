@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ header {
+     margin-top: 47px;
+     margin-left: 42px;
+ }
+
+ .link-menu {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    cursor: pointer;
+
+ }
+
+ .link-menu:hover {
+     text-decoration: underline;
+ }
+
+ .one:hover {
+     text-decoration: none;
+     border: 1px solid #4CB538;
+ }
+
+ .button-header {
+     width: 124px;
+     height: 51px;
+     flex-shrink: 0;
+     border-radius: 6px;
+     border: 1px solid #4CB538;
+     background: #6FBF44;
+     color: #FFF;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     letter-spacing: 1px;
+     cursor: pointer
+ }
+
+ img {
+     margin: 163px 0 0 123px;
+     display: inline-block;
+ }
+
+ h1 {
+     color: #161A49;
+     font-size: 62px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 82px;
+     letter-spacing: 0.596px;
+ }
+
+ p {
+     color: #4B505A;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 33px;
+     letter-spacing: 0.5px;
+     margin-top: 47px;
+     margin-bottom: 55px;
+ }
+
+ div {
+    display: inline-block;
+    margin-left: 84px;
+    width: 493px;
+
+ }
+
+ .button-learn-more {
+     color: #ffffff;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     letter-spacing: 1px;
+     border-radius: 6px;
+     border: 1px solid #4CB538;
+     background: #6FBF44;
+     cursor: pointer;
+ }
+
+ @media screen and (max-width:800px) {
+    img {
+        margin: 20px 0 20px 5px;
+        display: block;
+        width: 100%;
+    }
+    .link-menu{
+        display: none;
+    }
+    .button-header{
+        margin: 0 0 0 60%;
+    }
+    div {
+        text-align: center;
+        width: 100%;
+        margin: 0 0;
+    }
+    h1 {
+        font-size: 45px;
+        line-height: 45px;
+
+    }
+    p {
+        margin-top: 0;
+        padding: 4%;
+    }
+ }
+ @media screen and (max-width:360px) {
+    .button-header{
+        margin: 15px 0 45px 60%;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    img {
+        margin: auto;
+    }
+    header {
+        margin: 0;
+    }
+ }
